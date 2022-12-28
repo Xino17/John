@@ -1,0 +1,351 @@
+body{
+	max-width: 1152px;
+	margin: 0px auto;
+	font-family: "Heebo";
+}
+.Container{
+	
+}
+header{
+	display: flex;
+	justify-content: flex-end;
+}
+.Hbut{
+	font-size: 20px;
+	padding-right: 35px;
+	padding-top: 27px;
+	font-weight: 500;
+}
+
+.JohnH{
+	color: #21243D;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	width: 440px;
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 60px;
+}
+.JohnM{
+	width: 497px;
+	height: 66px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+}
+.JohnB{
+	width: 167px;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 29px;
+	color: white;
+	text-align: center;
+}
+.Johnbb{
+	padding-top: 9px;
+	padding-bottom: 15px;
+	width: 200px;
+	background-color: #FF6464;
+	border-radius: 2px;
+}
+.BigJohn{
+	padding-top: 158px;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 148px;
+	padding-right: 149px;
+}
+.JohnPhoto{
+
+}
+.recentPosts{
+	max-width: 1152px;
+	max-height: 396px;
+	background: #EDF7FA;
+	margin-top: 50px;
+}
+.posts{
+	display:flex;
+	justify-content: center;
+	gap: 30px;
+}
+.post{
+	background: #FFFFFF;
+	max-width: 418px;
+	margin-top: 5px;
+	height: 295px;
+	margin-bottom: 30px;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+.postTitle{
+	font-family: 'Heebo';
+	font-weight: 700;
+    font-size: 26px;
+	margin-left: 20px;
+	margin-top: 15px;
+    line-height: 38px;
+	color: #21243D;
+}
+.postAdditional{
+	font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+	color: #21243D;
+	font-family: 'Heebo';
+}
+.postDesc{
+	font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+	margin-top: 25px;
+	margin-left: 20px;
+    color: #21243D;
+}
+.postAdd{
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+	margin-top: 25px;
+}
+.line{
+	border: 1px solid #000000;
+	width: 0px;
+	height: 21px;
+}
+hr {
+	color:rgba(0, 0, 0, 0.25)
+}
+.title{
+	font-family: 'Heebo';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+
+}
+.date{
+	width: 60px;
+	height: 20px;
+	text-align: center;
+	background: #142850;
+    border-radius: 16px;
+	font-family: 'Heebo';
+    font-weight: 900;
+    font-size: 18px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	vertical-align: middle;
+	line-height: 60px;
+	color: #FFFFFF;
+}
+.burger{
+	display: none;
+	border: 1.6px solid #21243D;
+	width: 30px;
+	height: 0px;
+}
+.burgerContainer{
+	display: flex;
+	margin-top: 10px;
+	position: absolute;
+	right: 5%;
+	flex-direction: column;
+	gap: 7px;
+
+}
+.tag{
+	font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+.description{
+	font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+.wideline{
+	border: 1px solid #000000;
+	width: 858px;
+	height: 0px;
+}
+.johnMisc{
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+.dateandtag{
+	display: flex;
+	gap: 20px;
+}
+.works{
+	display: flex;
+	gap: 40px;
+	flex-direction: column;
+}
+.feautured_works{
+	display: flex;
+	flex-direction: column;
+	width: 858px;
+	margin: 0 auto;
+	justify-content: center;
+}
+.work{
+	display: flex;
+	gap: 20px;
+}
+.featured_title{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.firstText, .secondText{
+	padding-top: 20px;
+}
+.firstText{
+	font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+.secondText{
+	font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00A8CC;
+}
+.recentText{
+	display: flex;
+	gap: 600px;
+	justify-content: center;
+}
+.work_misc{
+	display: flex;
+	gap:  15px;
+	flex-direction: column;
+}
+.footerIcons{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+.footerText{
+	text-align: center;
+	padding-top: 20px;
+	font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #21243D;
+}
+footer{
+	margin-top: 100px;
+}
+
+@media (max-width: 768px){
+body{
+	max-width: 340px;
+}
+.BigJohn{ 
+	padding-left: 0px;
+	padding-right: 0px;
+	gap: 20px;
+	align-items: center;
+    flex-direction: column-reverse;
+}
+
+.work{
+	flex-direction: column;
+}
+.JohnH{
+	line-height: 40px;
+	font-weight: 700;
+	font-size: 32px;
+	width: 312px;
+	margin-left: 20px;
+	text-align: center;
+}
+.johnMisc{
+	justify-content: center;
+}
+.first, .second{
+	display: none;
+}
+.secondText{
+	display: none;
+}
+.JohnM{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	width: 328px;
+	margin-left: 10px;
+	text-align: center;
+}
+.JohnB{
+	text-align: center;
+	padding-left: 55px;
+	margin-left: 10px;
+}
+.Hbut{
+	font-size: 20px;
+	padding-right: 35px;
+	padding-top: 27px;
+	font-weight: 500;
+}
+.JohnPhoto{
+padding-left: 35px;
+}
+.recentPosts{
+	width: 375px;
+	margin-top: 50px;
+    max-height: 750px;
+}
+.posts{
+	flex-direction: column;
+	gap: 0px;
+}
+.wideline{
+	width: 340px;
+}
+.feautured_works{
+	width: 339px;
+	justify-content: center;
+}
+.description{
+	width: 344px;
+}
+.Hbut{
+	display: none;
+}
+.featured_title{
+	text-align: center;
+	margin-top: 30px;
+}
+.to_scale{
+	transform: scale(1.4);
+	margin-left: 45px;
+	margin-top: 35px;
+}
+.title{
+	margin-top: 30px;
+}
+.burger{
+	display: block;
+}
+.post{
+	max-width: 354px;
+    height: 266px;
+	margin-left: 10px;
+	padding-bottom: 20px;
+}
+}
